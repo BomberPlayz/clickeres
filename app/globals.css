@@ -25,3 +25,20 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.cookie:hover {
+  transform: scale(1.05);
+    transition: transform 0.025s ease-in-out;
+
+}
+
+.cookie:active {
+  transform: scale(0.95);
+    transition: transform 0.025s ease-in-out;
+
+}
+
+.big-text {
+  /*translate scale up*/
+  transform: scale(1.25);
+}
